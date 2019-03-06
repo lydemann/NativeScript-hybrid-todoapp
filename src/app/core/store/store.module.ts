@@ -3,7 +3,7 @@ import { ModuleWithProviders, NgModule, Optional, SkipSelf } from '@angular/core
 import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { environment } from 'environments/environment';
+import { environment } from '~/environments/environment';
 
 @NgModule({
   imports: [
